@@ -4,3 +4,4 @@
 # Next I import "SVC" and set "kernel" at "rbf" """classifier = SVC(kernel='rbf', random_state=0)""", then train my model """classifier.fit(X_train, y_train)"""
 # And check my predictions """print(classifier.predict(sc.transform([[30,87000]])))"""
 # Prepared my "y_pred" """y_pred = classifier.predict(X_test)"""
+# Finally import "confusion_matrix" and put into my "y_test" and "y_pred" """cm = confusion_matrix(y_test, y_pred)"""
